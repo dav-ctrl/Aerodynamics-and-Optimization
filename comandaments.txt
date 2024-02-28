@@ -1,0 +1,14 @@
+load nacaROT.txt
+NACA 4412 MOD
+oper
+v 3e6
+seqp
+pacc
+resultados.txt
+
+a 0
+a 0
+a 0
+a 0
+a 0
+a 0
