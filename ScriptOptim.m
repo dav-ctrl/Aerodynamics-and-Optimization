@@ -92,7 +92,7 @@ fminunc(@calculardrag,0,opts)
 % PROVES AMB patternsearch %
 
 % Proves per a minimitzar @calculardrag %
-options = optimoptions('patternsearch','Display','iter','PlotFcn',@psplotbestf);
+options = optimoptions('patternsearch','Display','iter');
 A = [];
 b = [];
 Aeq = [];
