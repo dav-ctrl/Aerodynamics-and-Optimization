@@ -109,6 +109,12 @@ patternsearch(@calculardrag,2.9,A,b,Aeq,beq,lb,ub,nonlcon,options);
 
 % Proves per a minimitzar @calculardrag mantenint el lift negatiu %
 
-nonlcon=@lifthelp
+% Proves per a minimitzar @calculardrag mantenint el lift negatiu %
+
+patternsearch(@calculardraginv,0,A,b,Aeq,beq,lb,ub,nonlcon,options);
+
+nonlcon=@lifthelpinv
+
+patternsearch(@calculardraginv,0,A,b,Aeq,beq,lb,ub,nonlcon,options);
 
 
