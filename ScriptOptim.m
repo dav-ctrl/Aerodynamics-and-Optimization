@@ -117,4 +117,11 @@ nonlcon=@lifthelpinv
 
 patternsearch(@calculardraginv,0,A,b,Aeq,beq,lb,ub,nonlcon,options);
 
+% Problema multiobjectiu %
+
+f=@(a) [dragflap(a),liftflap(a)];
+gamultiobj(f,2);
+paretosearch(f,2);
+
+
 
