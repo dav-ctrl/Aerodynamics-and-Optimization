@@ -1,3 +1,5 @@
+% En aquest document estan tots els experiments, incluits al treball o no, que s'han realitzat durant el TFG%
+
 % Perfil NACA 4412 %
 
 % Cal canviar el document de importdata a 'naca4412.txt' en la funció @calculardrag 
